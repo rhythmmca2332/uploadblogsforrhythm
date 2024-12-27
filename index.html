@@ -166,10 +166,6 @@
             .then(data => {
                 showMessage('Blog post uploaded successfully!', 'success');
                 document.getElementById('blogForm').reset();
-            })
-            .catch((error) => {
-                showMessage('Error uploading blog post. Please try again.', 'error');
-                console.error('Error:', error);
             });
         });
 
